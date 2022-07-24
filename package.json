@@ -1,0 +1,24 @@
+{
+  "name": "mean-stack-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "serve": "node index.js",
+    "dev": "nodemon index.js",
+    "deve": "cross-env NODE_ENV=development nodemon --experimental-modules --es-module-specifier-resolution=node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "cross-env NODE_ENV=production nodemon --experimental-modules --es-module-specifier-resolution=node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.6",
+    "nodemon": "^2.0.19"
+  }
+}
